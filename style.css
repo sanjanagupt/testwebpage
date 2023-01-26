@@ -1,0 +1,56 @@
+*
+    html{
+        margin: 0;
+        padding: 0;
+    }
+    .body
+    {
+        background-color: aqua;
+        size: 1000px;
+    }
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items:baseline;
+        font-size: 20px;
+    }
+    .my-button{
+        width: 150px;
+        height: 50px;
+        align-items: center;
+        font: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(24, 14, 137);
+        color: #fff;
+        border: 0;
+    }
+    .my-button2{
+        width: 150px;
+        height: 50px;
+        align-items: center;
+        font: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(30, 7, 99);
+        color: #fff;
+        border: 0;
+    }
+    .my-button3{
+        width: 150px;
+        height: 50px;
+        align-items: center;
+        font: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(37, 8, 100);
+        color: #fff;
+        border: 0;
+    }
+    .container{
+        position: absolute;
+        top:0%;
+        right:0%;
+        color: rgb(34, 16, 114);
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }

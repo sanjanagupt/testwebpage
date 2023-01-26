@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST WEBSITE</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body class="body"
+    <section> 
+        <h1 id="test">TEST WEBSITE</h1>
+            <p>IT is TEST WEBSITE. This website is intended to change the background colour and also to display the current date and time.</p>
+            <p>It consists of a nav bar and few buttons that have following functions:</p>
+            <p>to prompt welcome</p>
+            <p>to change background colour</p>
+            <p>to change heading</p>
+        </div>
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">HELP</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h2 id="current-time">12:00:00</h2>
+        </div>
+    </section>
+    <button onclick="dow()" class="my-button">CHANGE HEADING</button>
+    <button onclick="change()" class="my-button2">CHANGE BG</button>
+    <button onclick="head()" class="my-button3">PROMPT</button>
+    <script>
+        function dow(){
+            document.getElementById("test").innerHTML="HEADING CHANGED";
+        }
+    </script>
+    <script type=text/javascript">
+    var colour= ["#222f3e","#f368e0","#ee5253","#0abde3","#10ac84"]
+    var i =0;
+    document.querySelsector("button").addEventListner("click",)
+    </script>
+    <script>
+        let date=document.getElementById("current-date")
+        let time= document.getElementById("current-time");
+        setInterval(()=>{
+            let d= new Date();
+        time.innerHTML =d.toLocaleTimeString();
+        },1000)
+      
+    </script>
+</body>
+</html>
